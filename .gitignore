@@ -6,4 +6,5 @@ __pycache__/
 .streamlit/secrets.toml
 *.py[cod]
 *.pdf
+!reports/assetmind_project_report.pdf
 *.xlsx
