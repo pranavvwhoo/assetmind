@@ -4,6 +4,10 @@ Academic prototype: **Design, Development, Deployment and Evaluation of a CrewAI
 
 This local Streamlit application loads CSV/XLSX inventory data, calculates authoritative metrics with Pandas, runs four sequential CrewAI agents for evidence-based interpretation and review, and creates downloadable PDF and JSON results. `assets/sample_assets.csv` is synthetic and contains intentional quality issues.
 
+## Live demo
+
+The deployed app is available at [assetmind-ai-pranavvwhoo.streamlit.app](https://assetmind-ai-pranavvwhoo.streamlit.app/). The requested `assetmind-ai` subdomain was already taken, so Streamlit assigned this available owner-specific name. Add `GEMINI_API_KEY` under the app's **Manage app → Settings → Secrets** to enable provider-backed agent reports. Never put the key in GitHub or share it in chat. Without this secret, the deployed dashboard and deterministic analysis still work.
+
 ## What's distinctive: Asset Attention Radar
 
 Every analysis includes a deterministic, explainable review queue that identifies records worth a human follow-up: duplicate or missing identifiers, explicit zombie flags, retired-but-assigned assets, conflicting retirement fields, expired/soon-to-expire warranties, and selected missing inventory fields. Each row shows its source row, score, evidence signals, and a suggested next action. The PDF includes the summary, signal counts, and highest-priority queue; JSON contains the structured details. Individual record IDs stay out of the Gemini prompt.
