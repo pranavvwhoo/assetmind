@@ -1,0 +1,58 @@
+Asset Tracking ID,Parent ID,Mapping ID,Description,Location,Category,Department,Entity,Master Status,Master Condition,Tagging Status,Zombie Asset,isRetired,Allocated To,Memory,Storage,Processor,Mac Address,Make,Model,Purchase Date,Warranty Expiry,Vendor
+A001,ROOT,M001,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,user01@example.test,16 GB,512 GB,Processor-2,00:1A:2B:3C:00:01,Northstar,Model-2,2022-03-15,2026-06-30,Vendor 2
+A002,ROOT,M002,Monitor inventory asset,East office,Monitor,HR,Example Org,active,Good,Tagged,1,0,user02@example.test,24 GB,768 GB,Processor-3,00:1A:2B:3C:00:02,Contoso,Model-3,2023-04-15,2027-06-30,Vendor 3
+A003,ROOT,M003,Phone inventory asset,West office,Phone,Operations,Example Org,active,Good,Pending,0,no,,8 GB,1024 GB,Processor-1,00:1A:2B:3C:00:03,Acme,Model-4,2024-05-15,2025-06-30,Vendor 4
+A004,ROOT,M004,Laptop inventory asset,North office,Laptop,Finance,Example Org,active,Good,Tagged,yes,0,,16 GB,256 GB,Processor-2,00:1A:2B:3C:00:04,Northstar,Model-5,2025-06-15,2026-06-30,Vendor 1
+A005,ROOT,M005,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,user05@example.test,24 GB,512 GB,Processor-3,00:1A:2B:3C:00:05,Contoso,Model-1,2021-07-15,2027-06-30,Vendor 2
+A006,ROOT,M006,Monitor inventory asset,East office,Monitor,HR,Example Org,active,Good,Tagged,1,0,user06@example.test,8 GB,768 GB,Processor-1,00:1A:2B:3C:00:06,Acme,Model-2,2022-08-15,2025-06-30,Vendor 3
+A007,ROOT,M007,Phone inventory asset,West office,Phone,Operations,Example Org,active,Good,Pending,0,no,user07@example.test,16 GB,1024 GB,Processor-2,00:1A:2B:3C:00:07,Northstar,Model-3,2023-09-15,2026-06-30,
+A008,ROOT,M008,Laptop inventory asset,North office,Laptop,Finance,Example Org,active,Good,Tagged,yes,0,,24 GB,256 GB,Processor-3,00:1A:2B:3C:00:08,Contoso,Model-4,2024-010-15,2027-06-30,Vendor 1
+A009,ROOT,M009,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,,8 GB,512 GB,Processor-1,00:1A:2B:3C:00:09,Acme,Model-5,2025-02-15,2025-06-30,Vendor 2
+A010,ROOT,M010,Monitor inventory asset,East office,Monitor,HR,Example Org,retired,Good,Tagged,1,1,user10@example.test,16 GB,768 GB,Processor-2,00:1A:2B:3C:00:0A,Northstar,Model-1,2021-03-15,2026-06-30,Vendor 3
+A011,ROOT,M011,Phone inventory asset,West office,Phone,Operations,Example Org,active,Good,Pending,0,no,user11@example.test,24 GB,1024 GB,Processor-3,00:1A:2B:3C:00:0B,Contoso,Model-2,2022-04-15,2027-06-30,Vendor 4
+A012,ROOT,M012,Laptop inventory asset,North office,Laptop,Finance,Example Org,active,Good,Tagged,yes,0,user12@example.test,8 GB,256 GB,Processor-1,00:1A:2B:3C:00:0C,Acme,Model-3,2023-05-15,2025-06-30,Vendor 1
+A013,ROOT,M013,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,,16 GB,512 GB,Processor-2,00:1A:2B:3C:00:0D,Northstar,Model-4,2024-06-15,2026-06-30,Vendor 2
+A014,ROOT,M014,Monitor inventory asset,East office,Monitor,HR,Example Org,active,Good,Tagged,1,0,,24 GB,768 GB,Processor-3,00:1A:2B:3C:00:0E,Contoso,Model-5,2025-07-15,2027-06-30,
+A015,ROOT,M015,Phone inventory asset,West office,Phone,Operations,Example Org,active,Good,Pending,0,no,user15@example.test,8 GB,1024 GB,Processor-1,00:1A:2B:3C:00:0F,Acme,Model-1,2021-08-15,2025-06-30,Vendor 4
+A016,ROOT,M016,Laptop inventory asset,North office,Laptop,Finance,Example Org,active,Good,Tagged,yes,0,user16@example.test,16 GB,256 GB,Processor-2,00:1A:2B:3C:00:10,Northstar,Model-2,2022-09-15,2026-06-30,Vendor 1
+A017,ROOT,M017,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,user17@example.test,24 GB,512 GB,Processor-3,00:1A:2B:3C:00:11,Contoso,Model-3,2023-010-15,2027-06-30,Vendor 2
+A018,ROOT,M018,Monitor inventory asset,East office,Monitor,HR,Example Org,active,Good,Tagged,1,0,,8 GB,768 GB,Processor-1,00:1A:2B:3C:00:12,Acme,Model-4,2024-02-15,2025-06-30,Vendor 3
+A019,ROOT,M019,Phone inventory asset,West office,Phone,Operations,Example Org,active,Good,Pending,0,no,,16 GB,1024 GB,Processor-2,00:1A:2B:3C:00:13,Northstar,Model-5,2025-03-15,2026-06-30,Vendor 4
+A020,ROOT,M020,Laptop inventory asset,North office,Laptop,Finance,Example Org,retired,Good,Tagged,yes,1,user20@example.test,24 GB,256 GB,Processor-3,00:1A:2B:3C:00:14,Contoso,Model-1,2021-04-15,2027-06-30,Vendor 1
+A021,ROOT,M021,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,user21@example.test,8 GB,512 GB,Processor-1,00:1A:2B:3C:00:15,Acme,Model-2,2022-05-15,2025-06-30,
+A022,ROOT,M022,Monitor inventory asset,East office,Monitor,HR,Example Org,active,Good,Tagged,1,0,user22@example.test,16 GB,768 GB,Processor-2,00:1A:2B:3C:00:16,Northstar,Model-3,2023-06-15,2026-06-30,Vendor 3
+A023,ROOT,M023,Phone inventory asset,West office,Phone,Operations,Example Org,active,Good,Pending,0,no,,24 GB,1024 GB,Processor-3,00:1A:2B:3C:00:17,Contoso,Model-4,2024-07-15,2027-06-30,Vendor 4
+A024,ROOT,M024,Laptop inventory asset,North office,Laptop,Finance,Example Org,active,Good,Tagged,yes,0,,8 GB,256 GB,Processor-1,00:1A:2B:3C:00:18,Acme,Model-5,2025-08-15,2025-06-30,Vendor 1
+A025,ROOT,M025,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,user25@example.test,16 GB,512 GB,Processor-2,00:1A:2B:3C:00:19,Northstar,Model-1,2021-09-15,2026-06-30,Vendor 2
+A026,ROOT,M026,Monitor inventory asset,East office,Monitor,HR,Example Org,active,Good,Tagged,1,0,user26@example.test,24 GB,768 GB,Processor-3,00:1A:2B:3C:00:1A,Contoso,Model-2,2022-010-15,2027-06-30,Vendor 3
+A027,ROOT,M027,Phone inventory asset,West office,Phone,Operations,Example Org,active,Good,Pending,0,no,user27@example.test,8 GB,1024 GB,Processor-1,00:1A:2B:3C:00:1B,Acme,Model-3,2023-02-15,2025-06-30,Vendor 4
+A028,ROOT,M028,Laptop inventory asset,North office,Laptop,Finance,Example Org,active,Good,Tagged,yes,0,,16 GB,256 GB,Processor-2,00:1A:2B:3C:00:1C,Northstar,Model-4,2024-03-15,2026-06-30,
+A029,ROOT,M029,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,,24 GB,512 GB,Processor-3,00:1A:2B:3C:00:1D,Contoso,Model-5,2025-04-15,2027-06-30,Vendor 2
+A030,ROOT,M030,Monitor inventory asset,East office,Monitor,HR,Example Org,retired,Good,Tagged,1,1,user30@example.test,8 GB,768 GB,Processor-1,00:1A:2B:3C:00:1E,Acme,Model-1,2021-05-15,2025-06-30,Vendor 3
+A031,ROOT,M031,Phone inventory asset,West office,Phone,Operations,Example Org,active,Good,Pending,0,no,user31@example.test,16 GB,1024 GB,Processor-2,00:1A:2B:3C:00:1F,Northstar,Model-2,2022-06-15,2026-06-30,Vendor 4
+A032,ROOT,M032,Laptop inventory asset,North office,Laptop,Finance,Example Org,active,Good,Tagged,yes,0,user32@example.test,24 GB,256 GB,Processor-3,00:1A:2B:3C:00:20,Contoso,Model-3,2023-07-15,2027-06-30,Vendor 1
+A033,ROOT,M033,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,,8 GB,512 GB,Processor-1,00:1A:2B:3C:00:21,Acme,Model-4,2024-08-15,2025-06-30,Vendor 2
+A034,ROOT,M034,Monitor inventory asset,East office,Monitor,HR,Example Org,active,Good,Tagged,1,0,,16 GB,768 GB,Processor-2,00:1A:2B:3C:00:22,Northstar,Model-5,2025-09-15,2026-06-30,Vendor 3
+A035,ROOT,M035,Phone inventory asset,West office,Phone,Operations,Example Org,active,Good,Pending,0,no,user35@example.test,24 GB,1024 GB,Processor-3,00:1A:2B:3C:00:23,Contoso,Model-1,2021-010-15,2027-06-30,
+A036,ROOT,M036,Laptop inventory asset,North office,Laptop,Finance,Example Org,active,Good,Tagged,yes,0,user36@example.test,8 GB,256 GB,Processor-1,00:1A:2B:3C:00:24,Acme,Model-2,2022-02-15,2025-06-30,Vendor 1
+A037,ROOT,M037,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,user37@example.test,16 GB,512 GB,Processor-2,00:1A:2B:3C:00:25,Northstar,Model-3,2023-03-15,2026-06-30,Vendor 2
+A038,ROOT,M038,Monitor inventory asset,East office,Monitor,HR,Example Org,active,Good,Tagged,1,0,,24 GB,768 GB,Processor-3,00:1A:2B:3C:00:26,Contoso,Model-4,2024-04-15,2027-06-30,Vendor 3
+A039,ROOT,M039,Phone inventory asset,West office,Phone,Operations,Example Org,active,Good,Pending,0,no,,8 GB,1024 GB,Processor-1,00:1A:2B:3C:00:27,Acme,Model-5,2025-05-15,2025-06-30,Vendor 4
+A040,ROOT,M040,Laptop inventory asset,North office,Laptop,Finance,Example Org,retired,Good,Tagged,yes,1,user40@example.test,16 GB,256 GB,Processor-2,00:1A:2B:3C:00:28,Northstar,Model-1,2021-06-15,2026-06-30,Vendor 1
+A041,ROOT,M041,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,user41@example.test,24 GB,512 GB,Processor-3,00:1A:2B:3C:00:29,Contoso,Model-2,2022-07-15,2027-06-30,Vendor 2
+A042,ROOT,M042,Monitor inventory asset,East office,Monitor,HR,Example Org,active,Good,Tagged,1,0,user42@example.test,8 GB,768 GB,Processor-1,00:1A:2B:3C:00:2A,Acme,Model-3,2023-08-15,2025-06-30,
+A043,ROOT,M043,Phone inventory asset,West office,Phone,Operations,Example Org,active,Good,Pending,0,no,,16 GB,1024 GB,Processor-2,00:1A:2B:3C:00:2B,Northstar,Model-4,2024-09-15,2026-06-30,Vendor 4
+A044,ROOT,M044,Laptop inventory asset,North office,Laptop,Finance,Example Org,active,Good,Tagged,yes,0,,24 GB,256 GB,Processor-3,00:1A:2B:3C:00:2C,Contoso,Model-5,2025-010-15,2027-06-30,Vendor 1
+A045,ROOT,M045,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,user45@example.test,8 GB,512 GB,Processor-1,00:1A:2B:3C:00:2D,Acme,Model-1,2021-02-15,2025-06-30,Vendor 2
+A046,ROOT,M046,Monitor inventory asset,East office,Monitor,HR,Example Org,active,Good,Tagged,1,0,user46@example.test,16 GB,768 GB,Processor-2,00:1A:2B:3C:00:2E,Northstar,Model-2,2022-03-15,2026-06-30,Vendor 3
+A047,ROOT,M047,Phone inventory asset,West office,Phone,Operations,Example Org,active,Good,Pending,0,no,user47@example.test,24 GB,1024 GB,Processor-3,00:1A:2B:3C:00:2F,Contoso,Model-3,2023-04-15,2027-06-30,Vendor 4
+A048,ROOT,M048,Laptop inventory asset,North office,Laptop,Finance,Example Org,active,Good,Tagged,yes,0,,8 GB,256 GB,Processor-1,00:1A:2B:3C:00:30,Acme,Model-4,2024-05-15,2025-06-30,Vendor 1
+A049,ROOT,M049,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,,16 GB,512 GB,Processor-2,00:1A:2B:3C:00:31,Northstar,Model-5,2025-06-15,2026-06-30,
+A050,ROOT,M050,Monitor inventory asset,East office,Monitor,HR,Example Org,retired,Good,Tagged,1,1,user50@example.test,24 GB,768 GB,Processor-3,00:1A:2B:3C:00:32,Contoso,Model-1,2021-07-15,2027-06-30,Vendor 3
+A051,ROOT,M051,Phone inventory asset,West office,Phone,Operations,Example Org,,Good,Pending,0,unknown,user51@example.test,8 GB,1024 GB,Processor-1,00:1A:2B:3C:00:33,Acme,Model-2,2022-08-15,2025-06-30,Vendor 4
+A052,ROOT,M052,Laptop inventory asset,North office,Laptop,Finance,Example Org,,Good,Tagged,yes,unknown,user52@example.test,16 GB,256 GB,Processor-2,00:1A:2B:3C:00:34,Northstar,Model-3,2023-09-15,2026-06-30,Vendor 1
+A053,ROOT,M053,Desktop inventory asset,South office,Desktop,IT,Example Org,,Good,Pending,no,unknown,,24 GB,512 GB,Processor-3,00:1A:2B:3C:00:35,Contoso,Model-4,2024-010-15,2027-06-30,Vendor 2
+A054,ROOT,M054,Monitor inventory asset,East office,Monitor,HR,Example Org,,Good,Tagged,1,unknown,,8 GB,768 GB,Processor-1,00:1A:2B:3C:00:36,Acme,Model-5,2025-02-15,2025-06-30,Vendor 3
+A055,ROOT,M055,Phone inventory asset,West office,Phone,Operations,Example Org,,Good,Pending,0,unknown,user55@example.test,16 GB,1024 GB,Processor-2,00:1A:2B:3C:00:37,Northstar,Model-1,2021-03-15,2026-06-30,Vendor 4
+A001,ROOT,M001,Desktop inventory asset,South office,Desktop,IT,Example Org,active,Good,Pending,no,no,user01@example.test,16 GB,512 GB,Processor-2,00:1A:2B:3C:00:01,Northstar,Model-2,2022-03-15,2026-06-30,Vendor 2
+,ROOT,M057,Record with no identifier,Central office,Laptop,IT,Example Org,,Unknown,,maybe,unclear,,,,,,,,,,
