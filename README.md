@@ -66,6 +66,8 @@ The simplest hosted option is Streamlit Community Cloud: connect this project, s
 
 ## Project documents
 
+- [Mentor project report (PDF)](reports/assetmind_project_report.pdf)
+- [Mentor report generator](reports/generate_mentor_report.py) — regenerate with `python reports/generate_mentor_report.py`.
 - [Architecture](docs/architecture.md)
 - [Evaluation methodology](docs/evaluation_methodology.md)
 - [Academic report outline](docs/project_report_outline.md)
